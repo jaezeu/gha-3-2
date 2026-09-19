@@ -34,7 +34,7 @@ resource "aws_iam_role_policy_attachment" "s3_full" {
 variable "github_repository_username" {
   description = "GitHub repository username"
   type        = string
-  default   = "jaezeu"
+  default     = "jaezeu"
 }
 
 variable "github_repository_name" {
